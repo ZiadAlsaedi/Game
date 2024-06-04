@@ -1,0 +1,256 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/background-abstract-pixel-rain_23-2148367760.jpg?w=1380&t=st=1717396845~exp=1717397445~hmac=8cac00386892e4286feab43db21ce9857a33e042804c4eb2ba2b1d3ba7d499dd");
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+img, svg {
+    vertical-align: middle;
+    color: #ffbf00;;
+  }
+#nextLevel{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#safeTimerDisplay{
+display: flex;
+justify-content: center;
+font-size: xx-large;
+color: white;
+}
+#title {
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    background-color: #e69f45;
+        width: 48rem;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+    font-size: 5em;
+    font-family: 'Impact, fantasy ';
+}
+
+#title:hover {
+  background-color: #f8930e;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+#btnStart {
+    width: 25rem;
+    color: white;
+    background-color: brown;
+    margin-top: 2rem;
+    font-size: 3.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#next-btn{
+    width: 25rem;
+    color: white;
+    background-color: brown;
+    margin-top: 2rem;
+    font-size: 3.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#btnStart:hover {
+    background-color: darkred;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#before-start{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+#Text {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    transition: color 0.3s, transform 0.3s;
+}
+.img {
+    height: 25rem;
+    width: 25rem;
+  }
+
+  #img-cont{
+    display: flex;
+    gap: 20px;
+    /* width: 100vw; */
+    justify-content: center;
+}
+.img-div{
+    display: inline-block;
+    height: 25rem;
+
+}
+
+#game-over{
+  display: none;
+  text-align: center;
+}
+  .dif {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50px;
+    position: relative;
+    margin: auto;
+  }
+
+  .dif1{
+    right: 1.1rem;
+    top: -21.2rem;
+  }
+  .dif2{
+    right: 1.1rem;
+    top: -10.9rem;
+  }
+   
+  .dif3{
+    right: -9.1rem;
+    top: -21.3rem;
+  }
+  .dif4{
+    right: 1rem;
+    top: -24rem;
+  }
+  .dif5{
+    right: 6.8rem;
+  top: -19.3rem;
+  }
+
+  .dif6 {
+    right: 11.1rem;
+    top: -25.2rem;
+  }
+  .dif7{
+    right: -3.9rem;
+    top: -5.9rem;
+  }
+   
+ 
+
+  .dif8 {
+    right: -11.6rem;
+    top: -19.3rem;
+  }
+  
+  
+  .dif9 {
+    right: -4.3rem;
+    top: -28rem;
+  }
+  .dif10{
+    right: 5.9rem;
+    top: -18.3rem;
+  }
+  .dif11 {
+    right: -11.4rem;
+    top: -6.2rem;
+  }
+  .dif12{
+    right: -0.3rem;
+    top: -6.3rem;
+  }
+
+  .dif13 {
+    right: -10.9rem;
+    top: -18.3rem;
+  }
+  
+  
+  .dif14 {
+    right: 3.8rem;
+    top: -25rem;
+  }
+  .dif15{
+    right: 10.9rem;
+  top: -18rem
+  }
+  .dif16 {
+    right: -4rem;
+    top: -9.2rem;
+  }
+  .dif17{
+    right: 2.4rem;
+    top: -26rem;
+  }
+
+  .dif18 {
+    right: -2.7rem;
+    top: -18rem;
+  }
+  
+  
+  .dif19 {
+    right: -4.2rem;
+    top: -28rem;
+  }
+  .dif20{
+    right: 9.9rem;
+    top: -16rem;
+  }
+  .dif21 {
+    right: -0.5rem;
+    top: -2.2rem;
+  }
+  .dif22{
+    right: 8rem;
+    top: -22rem;
+  }
+
+  .dif23 {
+    right: -4rem;
+    top: -18rem;
+  }
+  
+  
+  .dif24 {
+    right: 7.3rem;
+    top: -19.4rem;
+  }
+  .dif25{
+    right: 6.2rem;
+    top: -15rem;
+  }
+#scoreDisplay{
+    color: white;
+    font-size: xx-large;
+}
+
+#after-start{
+  display: flex;
+  justify-content: center;
+}
+
+#gameText{
+  margin-top: 6rem;
+  color: white;
+
+}
+#all-score{
+  color: white;
+  margin-top: 1rem;
+  font-size: xx-large;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 2%;
+}
+
+#game-over{
+  margin-top: 5%;
+}
