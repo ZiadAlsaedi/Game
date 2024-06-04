@@ -166,7 +166,7 @@ function correct(id) {
 function timer(){
     clearInterval(time);
 
-    var sec = 10;
+    var sec = 60;
     time = setInterval(function(){
         document.getElementById('safeTimerDisplay').innerHTML='Time: 00:'+sec ;
         sec--;
